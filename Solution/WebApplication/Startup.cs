@@ -36,6 +36,8 @@ namespace WebApplication
             }
 
             app.UseMvc();
+            //wwwroot를 사용하게 해준다.
+            app.UseStaticFiles(); 
         }
     }
 }
